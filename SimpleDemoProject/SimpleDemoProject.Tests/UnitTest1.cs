@@ -81,13 +81,13 @@ namespace SimpleDemoProject.Tests
         [TestMethod]
         public void orlogicTest()
         {
-            Assert.AreEqual(program.andlogic(true, true), true);
+            Assert.AreEqual(program.orlogic(true, true), true);
         }
 
         [TestMethod]
         public void orlogicTest2()
         {
-            Assert.AreEqual(program.andlogic(true, false), false);
+            Assert.AreEqual(program.orlogic(true, false), false);
         }
     }
 }
