@@ -20,5 +20,19 @@ namespace SimpleDemoProject.Tests
         {
             Assert.AreNotEqual(program.addition(1, 3), 5);
         }
+
+        [TestMethod]
+        public void subtractionTest()
+        {
+
+            Assert.AreEqual(program.subtraction(1, 3), 2);
+        }
+
+        [TestMethod]
+        public void subtractionTest2()
+        {
+
+            Assert.AreEqual(program.subtraction(3, 1), 2);
+        }
     }
 }
