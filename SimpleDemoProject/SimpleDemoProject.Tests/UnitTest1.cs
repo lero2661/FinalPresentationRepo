@@ -34,5 +34,19 @@ namespace SimpleDemoProject.Tests
 
             Assert.AreEqual(program.subtraction(3, 1), 2);
         }
+
+        [TestMethod]
+        public void multiplicationTest()
+        {
+
+            Assert.AreEqual(program.multiplication(2, 3), 6);
+        }
+
+        [TestMethod]
+        public void multiplicaitonTest2()
+        {
+
+            Assert.AreEqual(program.addition(3, 3), 6);
+        }
     }
 }
