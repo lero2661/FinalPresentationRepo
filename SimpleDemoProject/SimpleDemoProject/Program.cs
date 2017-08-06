@@ -12,7 +12,7 @@ namespace SimpleDemoProject
         static void Main(string[] args)
         {
             Program program = new Program();
-            Console.WriteLine(program.rotate("hello"));
+            Console.WriteLine(program.shorten("hello", 2));
             Console.ReadLine();
         }
 
@@ -58,6 +58,21 @@ namespace SimpleDemoProject
             {
                 return "uhoh";
             }
+        }
+
+        public bool andlogic(bool b1, bool b2)
+        {
+            return b1 && b2;
+        }
+
+        public bool orlogic(bool b1, bool b2)
+        {
+            return b1 || b2;
+        }
+
+        public bool notlogic(bool b1)
+        {
+            return !b1;
         }
     }
 }
