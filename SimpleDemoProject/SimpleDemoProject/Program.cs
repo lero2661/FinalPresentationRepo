@@ -40,7 +40,7 @@ namespace SimpleDemoProject
 
         public string concat(string s1, string s2)
         {
-            return s1 + s2;
+            return s2 + s1;
         }
 
         public string rotate(string s)

@@ -56,6 +56,13 @@ namespace SimpleDemoProject.Tests
             Assert.AreEqual(program.concat("hi","hello"), "hihello");
         }
 
+        [TestMethod]
+        public void concatTest2()
+        {
+
+            Assert.AreEqual(program.concat("hi", "hello"), "hellohi");
+        }
+
 
         [TestMethod]
         public void rotateTest()
