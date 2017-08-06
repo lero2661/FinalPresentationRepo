@@ -11,7 +11,7 @@ namespace SimpleDemoProject
         static void Main(string[] args)
         {
             Program program = new Program();
-            Console.WriteLine(program.addition(1, 2));
+            Console.WriteLine(program.rotate("hello"));
             Console.ReadLine();
         }
 
@@ -35,6 +35,16 @@ namespace SimpleDemoProject
         public int multiplication(int num1, int num2)
         {
             return num1 * num2;
+        }
+
+        public string concat(string s1, string s2)
+        {
+            return s1 + s2;
+        }
+
+        public string rotate(string s)
+        {
+            return s.Substring(1, s.Length - 1) + s.Substring(0, 1);
         }
     }
 }
