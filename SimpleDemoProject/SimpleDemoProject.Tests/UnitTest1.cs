@@ -46,7 +46,13 @@ namespace SimpleDemoProject.Tests
         public void multiplicaitonTest2()
         {
 
-            Assert.AreEqual(program.multiplication(3, 3), 6);
+            Assert.AreEqual(program.multiplication(3, 3), 9);
+        }
+
+        [TestMethod]
+        public void powTest()
+        {
+            Assert.AreEqual(program.pow(3, 2), 9);
         }
     }
 }
