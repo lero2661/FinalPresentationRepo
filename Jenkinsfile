@@ -35,7 +35,7 @@ node {
 
      step([$class: 'XUnitBuilder', testTimeMargin: '3000', thresholdMode: 1,
          thresholds: [
-            [$class: 'FailedThreshold', failureNewThreshold: '', failureThreshold: '', unstableNewThreshold: '', unstableThreshold: '0'],
+            [$class: 'FailedThreshold', failureNewThreshold: '', failureThreshold: '', unstableNewThreshold: '', unstableThreshold: '2'],
             [$class: 'SkippedThreshold', failureNewThreshold: '', failureThreshold: '', unstableNewThreshold: '', unstableThreshold: '']],
          tools: [
             [$class: 'MSTestJunitHudsonTestType', deleteOutputFiles: false, failIfNotNew: false, pattern: 'MSTestResults.trx', skipNoTestFiles: true, stopProcessingIfError: true]]
