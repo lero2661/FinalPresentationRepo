@@ -89,5 +89,11 @@ namespace SimpleDemoProject.Tests
         {
             Assert.AreEqual(program.orlogic(true, false), false);
         }
+
+        [TestMethod]
+        public void notlogicTest()
+        {
+            Assert.AreEqual(program.notlogic(true), true);
+        }
     }
 }
