@@ -65,5 +65,29 @@ namespace SimpleDemoProject.Tests
 
             Assert.AreEqual(program.rotate("hello"), "elloh");
         }
+
+        [TestMethod]
+        public void andlogicTest()
+        {
+            Assert.AreEqual(program.andlogic(true, true), true);
+        }
+
+        [TestMethod]
+        public void andlogicTest2()
+        {
+            Assert.AreEqual(program.andlogic(true, false), true);
+        }
+
+        [TestMethod]
+        public void orlogicTest()
+        {
+            Assert.AreEqual(program.andlogic(true, true), true);
+        }
+
+        [TestMethod]
+        public void orlogicTest2()
+        {
+            Assert.AreEqual(program.andlogic(true, false), false);
+        }
     }
 }
