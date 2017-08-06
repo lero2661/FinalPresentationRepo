@@ -46,7 +46,22 @@ namespace SimpleDemoProject.Tests
         public void multiplicaitonTest2()
         {
 
-            Assert.AreEqual(program.multiplication(3, 3), 6);
+            Assert.AreEqual(program.multiplication(3, 3), 9);
+        }
+
+        [TestMethod]
+        public void concatTest()
+        {
+
+            Assert.AreEqual(program.concat("hi","hello"), "hihello");
+        }
+
+
+        [TestMethod]
+        public void rotateTest()
+        {
+
+            Assert.AreEqual(program.rotate("hello"), "elloh");
         }
     }
 }
