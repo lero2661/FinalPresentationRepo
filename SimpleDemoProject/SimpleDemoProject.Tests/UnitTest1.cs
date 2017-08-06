@@ -49,12 +49,7 @@ namespace SimpleDemoProject.Tests
             Assert.AreEqual(program.multiplication(3, 3), 9);
         }
 
-        [TestMethod]
-        public void concatTest()
-        {
-
-            Assert.AreEqual(program.concat("hi","hello"), "hihello");
-        }
+       
 
         [TestMethod]
         public void concatTest2()
