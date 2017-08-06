@@ -47,5 +47,17 @@ namespace SimpleDemoProject
         {
             return s.Substring(1, s.Length - 1) + s.Substring(0, 1);
         }
+
+        public string shorten(string s1, int shortenby)
+        {
+            if(shortenby < s1.Length)
+            {
+                return s1.Substring(0, s1.Length - shortenby);
+            }
+            else
+            {
+                return "uhoh";
+            }
+        }
     }
 }
