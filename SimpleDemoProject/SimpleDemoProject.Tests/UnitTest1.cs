@@ -4,6 +4,7 @@ using SimpleDemoProject;
 
 namespace SimpleDemoProject.Tests
 {
+    //comment
     [TestClass]
     public class UnitTest1
     {
